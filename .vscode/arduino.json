@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "programmer": "arduino:avrisp",
+    "port": "COM4",
+    "sketch": "serial_malinka\\serial_malinka.ino"
+}
