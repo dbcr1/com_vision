@@ -1,0 +1,6 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install python3-dev python3-pip python3-numpy
+pip3 install --upgrade pip setuptools wheel
+pip3 install flask pyserial 
+sudo apt install python3-opencv

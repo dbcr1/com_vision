@@ -17,12 +17,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(4, LOW);
-  analogWrite(5, 100);
-  digitalWrite(7, LOW);
-  analogWrite(6, 100);
-  
-  /*if (Serial.available()){
+
+  if (Serial.available()){
     uint8_t first_byte = 0;
     Serial.readBytes(&first_byte, 1);
     if (first_byte != START_BYTE){
@@ -40,6 +36,6 @@ void loop() {
       analogWrite(speed_L, buf[4]);
 
     }
-  }*/
+  }
 
 }
