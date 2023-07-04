@@ -18,3 +18,5 @@ sleep(3)
 print (buffer)
 robot.write(buffer)
 robot.close()
+
+print('jgjghgjg')
